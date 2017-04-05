@@ -2,22 +2,22 @@
 
 Pages to finish:
 
-index.html
-joinBeta.html
+index.html 
+joinBeta.html 
 
-undergradAbout.html
-undergradCalendar.html
-undergradEvents.html
-mpsScholarship.html
-undergradContact.html
-
-alumAbout.html
-alumCalendar.html
-alumEvents.html
-lostBrothers.html
-alumContact.html
-
-parents.html
+undergradAbout.html 
+undergradCalendar.html 
+undergradEvents.html 
+mpsScholarship.html 
+undergradContact.html 
+ 
+alumAbout.html 
+alumCalendar.html 
+alumEvents.html 
+lostBrothers.html 
+alumContact.html 
+ 
+parents.html 
 
 
 
