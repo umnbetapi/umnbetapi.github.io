@@ -2,12 +2,12 @@
 
 Pages to finish:
 
-index.html  -Neil
+index.html  -Neil  
 joinBeta.html  
  
-undergradAbout.html  -Devansh
+undergradAbout.html  -Devansh  
 undergradCalendar.html  
-undergradEvents.html  -Evan
+undergradEvents.html  -Evan  
 mpsScholarship.html  
 undergradContact.html  
  
@@ -17,7 +17,7 @@ alumEvents.html
 lostBrothers.html  
 alumContact.html  
   
-parents.html  -Sujeet
+parents.html  -Sujeet  
 
 
 
