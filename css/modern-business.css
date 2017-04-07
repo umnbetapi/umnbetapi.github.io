@@ -96,12 +96,22 @@ footer {
 	background-color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #1d2129;
+	color: #006DC8;
 }
-.navbar-inverse .navbar-nav > li > a:focus {
-	color: #6b6f75;
+
+.navbar-inverse .navbar-nav .open > li > a {
+	background-color:#006DC8;
 }
-.navbar-inverse .navbar-nav > .active > a:focus {
+
+.navbar-inverse .navbar-nav > .active > a{
 	color: #FFFFFF;
-	background-color: #1d2129;
+	background-color:#006DC8;
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+	background-color:#006DC8;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: black;
 }
