@@ -22,7 +22,61 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <style> 
     .Lato {font-family: 'Lato', sans-serif;}
-		</style>
+#grey-background {background-color:#F7F7F7;}
+.grey-text {color: #787474}
+.linespace {line-height: 190%}
+    </style>
+	
+ <!-- #betawallpaper {
+    background-image: url();
+
+
+    }
+
+
+
+ .fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('https://i.vimeocdn.com/video/589269858_780x439.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}-->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +94,13 @@
 </head>
 
 <body>
-
+<!--<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/betaimage.jpg" class="fullscreen-bg__video">
+        <source src="video/betavid.webm" type="video/webm">
+        <source src="video/betavid.mp4" type="video/mp4">
+        <source src="video/betavid.ogv" type="video/ogg">
+    </video>
+</div> -->
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -116,9 +176,66 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    
 
         <!-- Page Heading/Breadcrumbs -->
+       
+
+ <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/betaparentsday.jpg');"></div>
+                <!--<div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>-->
+            </div>
+           <!-- <div class="item">
+                <div class="fill" style="background-image:url('img/tommyparentsday2.jpg');"></div> -->
+                <!--<div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>-->
+           <!-- </div> -->
+           <!-- <div class="item">
+                <div class="fill" style="background-image:url('img/evanparentsday.jpg');"></div> -->
+                <!--<div class="carousel-caption"> 
+                    <h2>Caption 3</h2> 
+                </div>-->
+           <!-- </div> 
+        </div> -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+ <div id="grey-background">   
+ <div class="container">
+<p>&nbsp;</p>
+<h1 class="Lato">Beta Parents,</h1>
+<p>&nbsp;</p>
+<p class="grey-text linespace">Sending a child to college can be a challenging and stressful time in a parent’s life. Your son will encounter many opportunities to become involved outside of their classroom experience. It is important that you be educated about the enriching experience that your son will find by joining Beta Theta Pi.</p>
+<p>&nbsp;</p>
+<p class="grey-text linespace">Beta Theta Pi is dedicated to building Men of Principle for a principled life. Membership in the Fraternity enhances each brother’s collegiate experience through intellectual, social and moral growth. The Fraternity promotes high standards of moral conduct and responsible citizenship as outlined in the Men of Principle initiative. To that end, Beta Theta Pi provides comprehensive volunteer and staff support, numerous merit scholarships and leadership development experiences for more than 1,600 undergraduates annually. </p>
+<p>&nbsp;</p>
+
+</div>
+</div>
+
+
+<div class="container">
+
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header Lato">Parents
@@ -140,7 +257,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What concerns did you have when your son told you he was thinking of joining a fraternity?</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse">
@@ -153,7 +270,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">How have those concerns changed since that time?</a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
@@ -166,7 +283,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Aenean consequat lorem ut felis ullamcorper?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">In your opinion, what is the most impressive aspect of Beta Theta Pi?</a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
@@ -179,7 +296,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How has Beta added to your son's college experience?</a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse">
@@ -192,7 +309,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Have you seen positive changes in your son since joining Beta? If so, what are they?</a>
                             </h4>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse">
@@ -205,7 +322,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Aenean consequat lorem ut felis ullamcorper?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Why do you support Beta's Men of Principle initiative?</a>
                             </h4>
                         </div>
                         <div id="collapseSix" class="panel-collapse collapse">
@@ -218,7 +335,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">What would you say to other parents who were in your shoes?</a>
                             </h4>
                         </div>
                         <div id="collapseSeven" class="panel-collapse collapse">
@@ -228,7 +345,7 @@
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <div class="panel panel-default">
+                   <!-- <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle Lato" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?</a>
@@ -239,8 +356,8 @@
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                         </div>
-                    </div>
-                    <!-- /.panel -->
+                    </div> -->
+                    <!-- /.panel --> <!--
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -251,8 +368,8 @@
                             <div class="panel-body Lato">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
-                        </div>
-                    </div>
+                        </div> -->
+                    </div> 
                     <!-- /.panel -->
                 </div>
                 <!-- /.panel-group -->
@@ -260,12 +377,11 @@
             <!-- /.col-lg-12 -->
         </div>
         <!-- /.row -->
-
         <hr>
 
         <!-- Footer -->
         <footer>
-            <div class="row">
+            <div class="row container">
                 <div class="col-lg-12 Lato">
                     <p>Copyright &copy; Beta Pi - Beta Theta Pi 2017</p>
                 </div>
