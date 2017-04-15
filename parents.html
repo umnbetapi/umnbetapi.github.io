@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Beta Theta Pi - UMN Chapter</title>
 
     <!-- Bootstrap Core CSS -->
@@ -22,10 +22,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style> 
     .Lato {font-family: 'Lato', sans-serif;}
 #grey-background {background-color:#F7F7F7;}
-.grey-text {color: #787474}
+.grey-text {color: #010101}
 .linespace {line-height: 190%}
    .Heebo {font-family:'Heebo', sans-serif;}
 #blue-background {background-color: rgb(0, 76, 151);}
@@ -36,6 +37,12 @@
     background: -moz-linear-gradient(90deg, rgb(0, 76, 151), #007997, rgb(0, 76, 151)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(90deg, rgb(0, 76, 151), #007997, rgb(0, 76, 151)); /* Standard syntax (must be last) */}
 .raleway {font-family: 'Raleway', sans-serif;}
+.red-background {background-color: rgb(171, 35, 40);}
+#grad3 {background: red; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(90deg, rgb(171, 35, 40), #AB4A23, rgb(171, 35, 40)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, rgb(171, 35, 40), #AB4A23, rgb(171, 35, 40)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, rgb(171, 35, 40), #AB4A23, rgb(171, 35, 40)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, rgb(171, 35, 40), #AB4A23, rgb(171, 35, 40)); /* Standard syntax (must be last) */}
 
 
     </style>
@@ -211,19 +218,19 @@
                     <h2>Caption 1</h2>
                 </div>-->
             </div>
-           <!-- <div class="item">
-                <div class="fill" style="background-image:url('img/tommyparentsday2.jpg');"></div> -->
+           <div class="item">
+                <div class="fill" style="background-image:url('img/parentsdayauction2.jpg');"></div> 
                 <!--<div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>-->
-           <!-- </div> -->
+           </div> 
            <!-- <div class="item">
                 <div class="fill" style="background-image:url('img/evanparentsday.jpg');"></div> -->
                 <!--<div class="carousel-caption"> 
                     <h2>Caption 3</h2> 
                 </div>-->
-           <!-- </div> 
-        </div> -->
+           </div> 
+        </div> 
 
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -405,7 +412,45 @@
                 <!-- /.panel-group -->
             </div>
             <!-- /.col-lg-12 -->
+            <p>&nbsp;</p>
         </div>
+        <div id="grad3">
+        <p>&nbsp;</p>
+        <h1 class="raleway w3-center white-text">Parents Day 2017</h1>
+        <p>&nbsp;</p>
+        <div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/evan2.jpg" style="width:100%">
+  <img class="mySlides" src="img/tommy1.jpg" style="width:100%">
+  <img class="mySlides" src="img/eric2.jpg" style="width:100%">
+  <img class="mySlides" src="img/david3.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+
         <!-- /.row -->
         <hr>
 
@@ -429,5 +474,4 @@
 
 </body>
 
-</html>
 </html>
