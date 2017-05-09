@@ -91,3 +91,27 @@ footer {
         height: 70%;
     }
 }
+
+.navbar-inverse {
+	background-color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #006DC8;
+}
+
+.navbar-inverse .navbar-nav .open > li > a {
+	background-color:#006DC8;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	color: #FFFFFF;
+	background-color:#006DC8;
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+	background-color:#006DC8;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: black;
+}
