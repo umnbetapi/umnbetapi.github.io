@@ -1,25 +1,26 @@
 # [Link to published page](https://umnbetapi.github.io/)
 
-Pages to finish:
+index.html -Neil
+joinBeta.html - Neil
 
-index.html  -Neil  
-joinBeta.html  
- 
-undergradAbout.html  -Devansh  
-undergradCalendar.html  
-undergradEvents.html  -Evan  
-mpsScholarship.html  
-undergradContact.html  
- 
-alumAbout.html  
-alumCalendar.html  
-alumEvents.html  
-lostBrothers.html  
-alumContact.html  
-  
-parents.html  -Sujeet  
-  
-404.html  
+undergradAbout.html - Devansh
+undergradCalendar.html - Neil Did, needs public access
+undergradEvents.html -Evan, working on page 2 and pictures
+mpsScholarship.html - Sujeet to work on
+
+404.html
+undergradContact.html - Neil
+
+alumAbout.html
+alumCalendar.html - created, needs access
+alumEvents.html
+lostBrothers.html
+alumContact.html - Neil 
+
+parents.html -Sujeet
+
+for hosting use betapimn@gmail.com - Evan
+betathetapimn.com - figure out how has the hosting rights and credentials, reregister with the betapimn@gmail.com address
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Modern Business](http://startbootstrap.com/template-overviews/modern-business/)
 
