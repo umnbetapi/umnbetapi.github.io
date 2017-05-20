@@ -168,7 +168,7 @@
             </div>
             <div class="col-md-6 img-portfolio">
                 <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/BetaBroom.jpg" alt="" style="width: 650px; height: 400px">
+                <img class="img-responsive img-hover" src="img/Broomball.jpg" alt="" style="width: 650px; height: 400px">
                 <!--</a> new page link closer tage-->
                 <h3>
                     <p>Intramurals</p>
@@ -192,7 +192,7 @@
             </div>
             <div class="col-md-6 img-portfolio">
                 <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/BrotherhoodWeekend.jpg" alt="" style="width: 650px; height: 400px">
+                <img class="img-responsive img-hover" src="img/Brotherhood2.jpg" alt="" style="width: 650px; height: 400px">
                 <!--</a> new page link closer tage-->
                 <h3>
                     <p><!--href="portfolio-item.html"-->Brotherhood Weekend</p>
@@ -202,83 +202,263 @@
         </div>
         <!-- /.row -->
 
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <!-- Add more pages if needed
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li> -->
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Beta Theta Pi, Beta Pi 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+<div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Beta Events
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Beta Events</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
         <div class="row">
             <div class="col-md-6 img-portfolio">
-                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/LightTheRow.jpg" alt="" style="width: 650px; height: 400px">
-                <!--</a> new page link closer tage-->
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="ParentsNight3.jpg" alt="Parent's Night" style="width: 650px; height: 400px";>
+                    <!--
+                    <img class="img-responsive img-hover" src="ParentsNight2.jpg" alt="Parent's Night" style="width: 650px; height: 400px"; display: none;>
+                    <img class="img-responsive img-hover" src="ParentsNight1.jpg" alt="Parent's Night" style="width: 650px; height: 400px"; display: none;>
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">❮</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">❯</button>
+                    -->
+                </div>
+                <img class="img-responsive img-hover" src="img/ParentsNight3.jpg" alt="Parent's Night" style="width: 650px; height: 400px">
+
                 <h3>
-                    <p> <!-- href="portfolio-item.html"-->Light The Row</p>
+                    <p><!--href="portfolio-item.html"  can make to link-->Parent's Day</p>
                 </h3>
-                <p>Every winter, Beta hosts Light The Row which is our philanthropy for the Cystic Fibrosis Foundation.
-                    We light up the house and sync it up with some music. People come by to decorate cookies, socialize,
-                    and admire the show.</p>
+                <p>Beta loves to keep parents involved and we hold a Parent's Day in the spring to help showcase what we are all about.
+                    If you want more information about Parent's Day and how to become more involved with Beta's Parents Club, contact the current Paren'ts Club Liaison or Programming Chair. </p>
             </div>
             <div class="col-md-6 img-portfolio">
                 <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="BetaThetaPies.jpg" alt="" style="width: 650px; height: 400px">
+                <img class="img-responsive img-hover" src="img/Homecoming2k16.jpg" alt="" style="width: 650px; height: 400px">
                 <!--</a> new page link closer tage-->
                 <h3>
-                    <p><!--href="portfolio-item.html"-->Beta Theta Pies</p>
+                    <p><!--a href="portfolio-item.html"-->Homecoming</p>
+                </h3>
+                <p>Homecoming is a great time when the greek community leads the campus in showing school spirit
+                    Here is a great picture of Beta Pi's pomping effort at Homecoming in 2016. </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="SheridanStory.jpg" alt="" style="width: 650px; height: 400px">
+                <!--</a> new page link closer tage-->
+                </div>
+                <h3>
+                    <p><!--a href="portfolio-item.html">-->Sheridan Story</p>
+                </h3>
+                <p>Here betas helped pack food for local children who don't get enough to eat at home. We learned more about how hunger affects people everywhere, even in first world countries.
+                Packing food was a great time made even better knowing we were helping children around the metro.</p>
+            </div>
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="BetaBroom.jpg" alt="" style="width: 650px; height: 400px">
+                </div>
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p>Intramurals</p>
+                </h3>
+                <p>Beta's broomball team is a force to be reckoned with. This year we finished second in the greek league. We also have teams in football and next year are looking to get a soccer team. Go Beta!</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="CFFGala.jpg.jpg" alt="" style="width: 650px; height: 400px">
+                </div>
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p> <!-- href="portfolio-item.html"-->Cystic Fibrosis Foundation</p>
+                </h3>
+                <p>Beta is proud to sponsor CFF in efforts to help improve the daily lives of people with cystic
+                    fibrosis. Beta has had multiple philanthropy events like
+                    Light the Row and Beta Theta Pies to help raise money and awareness for the Cystic Fibrosis
+                    Foundation. Beta Pi also helps out annually by volunteering at the CFF Tower Climb and the CFF
+                    Breath of Life Gala. </p>
+            </div>
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+            <div class="col-md-6 img-portfolio">
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="BrotherhoodWeekend.jpg" alt=""
+                         style="width: 650px; height: 400px">
+                </div>
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p><!--href="portfolio-item.html"-->Brotherhood Weekend</p>
+                </h3>
+                <p>IT'S FINALLY HERE! Betas love Brotherhood Weekend. It's a great time to get to know all of your
+                    brothers as well as play in the classic Beta football game, adventure, and play mafia. Best weekend
+                    of the year!</p>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class="col-md-6 img-portfolio">
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="BetaThetaPies.jpg" alt="Beta Theta Pies" style="width: 650px; height: 400px">
+                    <!--
+                    <img class="img-responsive img-hover" src="ParentsNight2.jpg" alt="Parent's Night" style="width: 650px; height: 400px"; display: none;>
+                    <img class="img-responsive img-hover" src="ParentsNight1.jpg" alt="Parent's Night" style="width: 650px; height: 400px"; display: none;>
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">❮</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">❯</button>
+                     -->
+                </div>
+                <h3>
+                    <p><!--href="portfolio-item.html"  can make to link-->Beta Theta Pies</p>
                 </h3>
                 <p>Before going away for the summer, we have one last philanthropy every year that is always a smashing
                     success. People come to enjoy some great pie, or perhaps throw a pie in a Beta's face.
                     The philanthropy helped raise money for the Cystic Fibrosis Foundation and the Aurora Center at the
                     U.</p>
             </div>
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <div class="w3-content w3-display-container">
+                    <img class="img-responsive img-hover" src="LightTheRow.jpg" alt="" style="width: 650px; height: 400px">
+                </div>
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p><!--a href="portfolio-item.html"-->Light the Row</p>
+                </h3>
+                <p>Every winter, Beta hosts Light The Row which is our philanthropy for the Cystic Fibrosis Foundation.
+                    We light up the house and sync it up with some music. People come by to decorate cookies, socialize,
+                    and admire the show. </p>
+            </div>
         </div>
 
-        <div class="row">
+        <div class = "row">
             <div class="col-md-6 img-portfolio">
                 <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/RelayForLife.jpg" alt="" style="width: 650px; height: 400px">
+                <img class="img-responsive img-hover" src="Formal2016.jgp.jpg" alt=""
+                     style="width: 650px; height: 400px">
                 <!--</a> new page link closer tage-->
                 <h3>
-                    <p> <!-- href="portfolio-item.html"-->Relay For Life</p>
+                    <p><!--a href="portfolio-item.html">-->Formal</p>
                 </h3>
-                <p>Beta is proud to always having an outstanding showing at Relay for Life. Relay For Life is a fundraiser for teh American Cancer Society.
-                    Relay also helps unite cancer survivors and people on campus through fun events. </p>
+                <p>Formal is a great time to get to know your brothers and relax for a weekend in a grueling college
+                    semester.
+                    Here the Fall of 2016 pledge class poses for a quick pic before dinner.</p>
             </div>
             <div class="col-md-6 img-portfolio">
                 <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/YogaExchange.jpg" alt="" style="width: 650px; height: 400px">
+                <img class="img-responsive img-hover" src="ProfessorsDinner.jpg" alt=""
+                     style="width: 650px; height: 400px">
                 <!--</a> new page link closer tage-->
                 <h3>
-                    <p><!--href="portfolio-item.html"-->Exchanges</p>
-                </h3>
-                <p>Exchanges are great opportunities to get to meet more members of the greek community. We have several per semester and are always
-                    looking for new fun ideas. Here is a picture of our yoga exchange this year.</p>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 img-portfolio">
-                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="img/SheridanStory.jpg" alt="" style="width: 650px; height: 400px">
-                <!--</a> new page link closer tage-->
-                <h3>
-                    <p> <!-- href="portfolio-item.html"-->Sheridan Story</p>
-                </h3>
-                <p>Here betas helped pack food for local children who don't get enough to eat at home. We learned more about how hunger affects people everywhere, even in first world countries.
-                    Packing food was a great time made even better knowing we were helping children around the metro. </p>
-            </div>
-            <div class="col-md-6 img-portfolio">
-                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
-                <img class="img-responsive img-hover" src="ProfessorsDinner.jpg" alt="" style="width: 650px; height: 400px">
-                <!--</a> new page link closer tage-->
-                <h3>
-                    <p><!--href="portfolio-item.html"-->Professor's Dinner</p>
+                    <p>Professor's Dinner</p>
                 </h3>
                 <p>Every year we hold a professor's dinner where every Beta is encouraged to invite a professor you
                     really like, or would like to get to know better. It is a great place to gain stronger connections
                     with your professors and get to know them on a personal level.</p>
             </div>
-
         </div>
 
 
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <img class="img-responsive img-hover" src="RelayForLife.jpg" alt="" style="width: 650px; height: 400px">
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p> <!-- href="portfolio-item.html"-->Relay For Life</p>
+                </h3>
+                <p>Beta is proud to always having an outstanding showing at Relay for Life. Relay For Life is a fundraiser for teh American Cancer Society.
+                    Relay also helps unite cancer survivors and people on campus through fun events.   </p>
+            </div>
+            <div class="col-md-6 img-portfolio">
+                <!--<a href="portfolio-item.html"> if we want image to lead to new page / link-->
+                <img class="img-responsive img-hover" src="YogaExchange.jpg" alt="" style="width: 650px; height: 400px">
+                <!--</a> new page link closer tage-->
+                <h3>
+                    <p><!--href="portfolio-item.html"-->Exchanges</p>
+                </h3>
+                <p>Exchanges are great opportunities to get to meet more members of the greek community. We have several per semester and are always looking for new fun ideas. Here is a picture of our yoga exchange this year.</p>
+            </div>
+        </div>
+
         <hr>
+
         <!-- Pagination if want to add another page / html
         <div class="row text-center">
             <div class="col-lg-12">

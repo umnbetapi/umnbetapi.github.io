@@ -115,3 +115,18 @@ footer {
 .navbar-inverse .navbar-nav > li > a:hover {
 	color: black;
 }
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #FFFFFF;
+    background-color: #006DC8;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: #006DC8;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #FFFFFF;
+    background-color: #006DC8;
+}
