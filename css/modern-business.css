@@ -131,3 +131,6 @@ footer {
     color: #FFFFFF;
     background-color: #006DC8;
 }
+.navbar-inverse .navbar-toggle  {
+    background-color: #006DC8;
+}
