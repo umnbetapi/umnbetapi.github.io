@@ -37,22 +37,25 @@
 </head>
 
 <body>
-	<script>window.twttr = (function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0],
-	    t = window.twttr || {};
-	  if (d.getElementById(id)) return t;
-	  js = d.createElement(s);
-	  js.id = id;
-	  js.src = "https://platform.twitter.com/widgets.js";
-	  fjs.parentNode.insertBefore(js, fjs);
+  <div id="fb-root"></div>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '426505421068043',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
 
-	  t._e = [];
-	  t.ready = function(f) {
-	    t._e.push(f);
-	  };
-
-	  return t;
-	}(document, "script", "twitter-wjs"));</script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&426505421068043";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -212,8 +215,8 @@
                     <div class="panel-body">
                         <p>
             								Attend an upcoming event, or help us track down a lost brother.  There are plenty of ways to get involved as an alumni.
-            						</p>
-                        <a href="alumAbout.html" class="btn btn-default">Learn More</a>
+            						 </p> <!--alumAbout.html -->
+                        <a href="underConstruction.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -223,16 +226,27 @@
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Latest Undergraduate News</h2>
+                <h2 class="page-header">Latest Undergraduate News & Photos</h2>
             </div>
-			<div class="col-lg-6">
-			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeta.UMN&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-		    </div><div class="col-lg-6">
-            <!-- InstaWidget -->
-            <!-- InstaWidget -->
-            <a href="https://instawidget.net/v/user/beta_minnesota" id="link-fe9d20a672ba5848192c120cb800ea55355241a1e2bd8d0210e31af46f4ba7f1">@beta_minnesota</a>
-            <script src="https://instawidget.net/js/instawidget.js?u=fe9d20a672ba5848192c120cb800ea55355241a1e2bd8d0210e31af46f4ba7f1&width=500px"></script>
-			</div>
+			<div class="col-xs-12 col-lg-6" style="width: 100% ; height: 800px">
+        <div class="fb-page"
+        data-href="https://www.facebook.com/beta.umn"
+        data-tabs="timeline, events"
+        data-width="500"
+        data-height="800"
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/beta.umn" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/beta.umn">Beta Theta Pi - University of Minnesota</a></blockquote>
+        </div>
+      </div>
+        <div class="col-lg-6 col-xs-12">
+            <!-- LightWidget WIDGET -->
+            <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="//lightwidget.com/widgets/54cb8625c2955473abb33a67a4f10a5b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			       </div>
         </div>
         <!-- /.row -->
 
@@ -296,11 +310,11 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
-    <script>
+    <!-- <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-    </script>
+    </script> -->
 
 </body>
 
